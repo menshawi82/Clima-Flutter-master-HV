@@ -7,13 +7,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86dee0aa-45ca-4fb7-b51f-9ed291fc41c0" name="Default Changelist" comment="" />
+    <list default="true" id="86dee0aa-45ca-4fb7-b51f-9ed291fc41c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clima_hv/lib/screens/loading_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/clima_hv/lib/screens/loading_screen.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\mensh\.android\avd\Nexus_6_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\mensh\.android\avd\Pixel_3a_API_30_x86.avd]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -81,9 +84,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="431" y="246" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1623390416226" />
-    <state x="135" y="111" width="1232" height="800" key="AVDManager" timestamp="1623390954373">
+    <state x="135" y="111" width="1232" height="800" key="AVDManager" timestamp="1623393162156">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="135" y="111" width="1232" height="800" key="AVDManager/-1920.0.1280.690/0.0.1920.1050@0.0.1920.1050" timestamp="1623393162156" />
     <state x="135" y="111" width="1232" height="800" key="AVDManager/-1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1623390954373" />
     <state x="535" y="255" key="AndroidProcessChooserDialog" timestamp="1623301972773">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -129,9 +133,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1372" height="266" key="GridCell.Tab.1.right/-1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1623302371899" />
-    <state x="252" y="155" key="SettingsEditor" timestamp="1623302106838">
+    <state x="252" y="155" key="SettingsEditor" timestamp="1623392423956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="252" y="155" key="SettingsEditor/-1920.0.1280.690/0.0.1920.1050@0.0.1920.1050" timestamp="1623392423956" />
     <state x="252" y="155" key="SettingsEditor/-1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1623302106838" />
   </component>
 </project>
