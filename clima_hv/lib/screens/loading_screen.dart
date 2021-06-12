@@ -1,5 +1,5 @@
+import 'package:clima_hv/services/location.dart';
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
 
 class LoadingScreen extends StatefulWidget {
   @override
@@ -7,25 +7,34 @@ class LoadingScreen extends StatefulWidget {
 }
 
 class _LoadingScreenState extends State<LoadingScreen> {
+  @override
+  void initState() {
+    super.initState();
+    getLocation();
+  }
+
   void getLocation() async {
-    Position position = await Geolocator.getCurrentPosition(
-        desiredAccuracy: LocationAccuracy.low,
-        forceAndroidLocationManager: true);
-    print(position.toString());
+    Location location = Location();
+   await location.getCurrentLocation();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            //Get the current location
-            getLocation();
-          },
-          child: Text('Get Location'),
+    try {
+      String myMargin = '15';
+      return Scaffold(
+        body: Container(
+          margin: EdgeInsets.all(double.parse(myMargin)),
+          color: Colors.green,
         ),
-      ),
-    );
+      );
+    } catch (e) {
+      return Scaffold(
+        body: Container(
+          color: Colors.red,
+          child: Center(child: Text(e.toString())),
+        ),
+      );
+    }
   }
 }
